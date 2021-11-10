@@ -18,7 +18,7 @@ const todoList = [{
 ];
 
 const addContent = () => {
-  for (let i = 0; i < todoList.length; i + 1) {
+  for (let i = 0; i < todoList.length; i += 1) {
     const todoItem = document.createElement('li');
     todoItem.innerHTML = `
       <div>
